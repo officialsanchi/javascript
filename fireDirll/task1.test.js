@@ -1,4 +1,4 @@
-const {sumEvenNumbers, findMax,countOddNumbers,isPrime,findFirstDuplicate,reverseArray,factorial, isPalindrome} = require("./task1.js");
+const {sumEvenNumbers, findMax,countOddNumbers,isPrime,findFirstDuplicate,reverseArray,factorial, isPalindrome,sumMultplesOfThreeAndFive} = require("./task1.js");
 
 test("sum of all even number", () =>{
 	let arraysOfNumbers = [2,3,4,6]
@@ -36,10 +36,15 @@ test("factorial",() =>{
 	let result = factorial(factorialNumber)
 	expect(result).toBe(120);
  })
-test("is palindrome", () => {
+test("is palindrome", () =>{
 	let palindrome = ("racecar");
 	let result = isPalindrome(palindrome);
 	expect(result).toBe(true); 
+})
+test("sum multples of three and five", () =>{
+	let multple = 15;
+	let result = sumMultplesOfThreeAndFive(multple);
+	expect(result).toBe(75);
 })
 
 

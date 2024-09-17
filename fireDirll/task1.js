@@ -76,17 +76,35 @@ function factorial(number){
 function isPalindrome(number){
 	let alpha = "";
 	for(let count = number.length-1; count >=0; count --){
-		alpha = alpha + number;
+		alpha = alpha + number[count];
+
 	}
-		if(number == alpha){
+
+		if(alpha == number){
 		return true
 }
-	if(number != alpha){
+	if(alpha != number){
 	return false;
 }
 
+	}
+function sumMultplesOfThreeAndFive(number){
+	let sum = 0;
+	let result = 0;
+	let total = 0;
+	for(let count = 0; count <= number; count+3){
+		 sum =  count + count;
+
+		}
+	for(let counter = 0; counter <= number; counter+5){
+		result = counter + counter;
+		}
+		total = sum + result;
+	
+		return total;
+	
 	}	
-module.exports = {sumEvenNumbers, findMax,countOddNumbers,isPrime,findFirstDuplicate,reverseArray,factorial, isPalindrome};
+module.exports = {sumEvenNumbers, findMax,countOddNumbers,isPrime,findFirstDuplicate,reverseArray,factorial, isPalindrome,sumMultplesOfThreeAndFive};
 
 
 
