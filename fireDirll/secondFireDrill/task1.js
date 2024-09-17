@@ -21,9 +21,6 @@ console.log(count, car[count])
 objectAndLoop (car);
 
 
-
-
-
 const counter = {
 	 count: 0,
 	step : 1,
@@ -39,4 +36,23 @@ const counter = {
 console.log(counter.increment());
 console.log(counter.increment());
 console.log(counter.decrement());
+
+
+const personOne = {firstName: 'chidinma', lastName: 'dunni',fullName:function(){
+	 return this.firstName  + ' ' + this.lastName ,	
+	}
+
+}
+console.log(personOne.fullName());
+
+const personTwo = {firstName: 'chidinma', lastName: 'dunni', age: 21}
+
+	let value = ""
+
+function personObject(firstName, lastName,age){
+	for(for count in personTwo){
+		value  +'' + personTwo}
+		return value;	
+}
+console.log(personObject());
 	
