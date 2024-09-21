@@ -1,14 +1,12 @@
-const car = {make:"Toyota",
-	model: "Camry",
-	year: 2021};
-function objectAndLoop(car){
-	for(let count in car){
+const personTwo = {firstName: 'chidinma', lastName: 'dunni', age: 21}
+
+	let value = ""
+
+function personObject(firstName, lastName,age){
+	for(let count in personTwo){
+		value  =+ ' : ' + personTwo
+}
+		return value;	
+}
+console.log(personObject(value));
 	
-console.log(count, car[count])
-
-	}
-
-	};
-objectAndLoop (car);
-
-

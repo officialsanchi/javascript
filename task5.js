@@ -10,14 +10,9 @@ for(let count = 0;count < number.length;count++){
 		odd++ 
 }
 	
-
-	
-
-	
-	}
+}
 evenOdd.push(even,odd)
 return evenOdd
-
 		
 	}
 console.log(myfunction([2,1,5,7,8]));

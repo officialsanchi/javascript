@@ -40,8 +40,7 @@ console.log(counter.decrement());
 
 const personOne = {firstName: 'chidinma', lastName: 'dunni',fullName:function(){
 	 return this.firstName  + ' ' + this.lastName ,	
-	}
-
+}
 }
 console.log(personOne.fullName());
 
@@ -51,7 +50,8 @@ const personTwo = {firstName: 'chidinma', lastName: 'dunni', age: 21}
 
 function personObject(firstName, lastName,age){
 	for(for count in personTwo){
-		value  +'' + personTwo}
+		value  =+ ' : ' + personTwo
+}
 		return value;	
 }
 console.log(personObject());

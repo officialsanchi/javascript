@@ -1,11 +1,6 @@
-const personOne{
-	firstName: 'chidinma',
-	lastName: 'dunni',
-	
-function fullName( firstName,lastName){
-
-
-	}
-return fullName
-
+const personOne = {firstName: 'chidinma', lastName: 'dunni',fullName:function(){
+	 return this.firstName  + ' ' + this.lastName
 }
+}
+
+console.log(personOne.fullName());
